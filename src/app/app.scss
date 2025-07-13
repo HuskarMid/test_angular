@@ -149,6 +149,21 @@ main {
     @include blackSection;
     height: 128px;
     position: relative;
+
+    &__maxMin {
+        display: flex;
+        justify-content: space-between;
+        width: 377px;
+        position: absolute;
+        bottom: 9px;
+        right: 30px;
+
+        & p {
+            font-size: 12px !important;
+            font-weight: 500;
+            color: #5B5B5B;
+        }
+    }
     
 
 
@@ -609,10 +624,10 @@ main {
     border-bottom: 4px solid transparent;
     margin: 0px;
     &--left {
-      border-right: 5px solid #868686;
+      border-right: 5px solid #5B5B5B;
     }
     &--right {
-      border-left: 5px solid #868686;
+      border-left: 5px solid #5B5B5B;
     }
   }
 
