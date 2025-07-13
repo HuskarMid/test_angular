@@ -1,1 +1,88 @@
 /* You can add global styles to this file, and also import other style files */
+
+/* Импорт шрифтов */
+@font-face {
+    font-family: 'Riffic';
+    src: url('/Fonts/riffic-book.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Riffic';
+    src: url('/Fonts/riffic-bold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Riffic';
+    src: url('/Fonts/riffic-black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Riffic';
+    src: url('/Fonts/riffic-light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Riffic';
+    src: url('/Fonts/riffic-medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Riffic';
+    src: url('/Fonts/riffic-semibold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Riffic';
+    src: url('/Fonts/riffic-ultrabold.ttf') format('truetype');
+    font-weight: 800;
+    font-style: normal;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    font-family: 'Riffic', sans-serif;
+
+    --color-primary: #FFFFFF;
+    --color-secondary: #5B5B5B;
+}
+
+body {
+    background-color: #0e0e0e;
+}
+
+input[type="text"],input[type="email"],input[type="url"],textarea {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -ms-appearance: none;
+    -o-appearance: none;
+    appearance: none;
+    outline: none; //important!
+    border: none;
+}
+
+select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -ms-appearance: none;
+    -o-appearance: none;
+    appearance: none;
+    outline: none; //important!
+    border: none;
+    background-color: #0D0D0D;
+}
